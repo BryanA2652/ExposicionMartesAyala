@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ExposicionMartesAyala.jnlp">
+  <information>
+    <title>ExposicionMartesAyala</title>
+    <vendor>ROCIO</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ExposicionMartesAyala.jar" size="5432" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.17.jar" size="2321813" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="exposicionmartesayala.ResultadoConstructores"  name="ExposicionMartesAyala" />
+  <update check="always"/>
+</jnlp>
